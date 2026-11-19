@@ -1,0 +1,20 @@
+# IDE
+.idea
+.vscode
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地真实配置（含明文密码/密钥），只提交 *.example.json
+mysql/mysql_mcp_config.json
+**/*_mcp_config.json
+!**/*_mcp_config.example.json
+
+# 日志与临时产物
+*.log
+hs_err_pid*.log
+output/

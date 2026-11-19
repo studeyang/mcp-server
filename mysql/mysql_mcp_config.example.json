@@ -1,0 +1,19 @@
+{
+  "default": "sit2",
+  "connections": {
+    "sit2": {
+      "url": "jdbc:mysql://<host>:3306/<db>?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai",
+      "username": "<user>",
+      "password": "<password>",
+      "allow_write": false,
+      "max_rows": 5000
+    },
+    "sit6": {
+      "url": "jdbc:mysql://<host>:3306/<db>?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8",
+      "username": "<user>",
+      "password": "<password>",
+      "allow_write": false,
+      "max_rows": 5000
+    }
+  }
+}
